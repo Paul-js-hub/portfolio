@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap");
 
-*, *:before, *:after{
+* {
   box-sizing: inherit;
 }
 
@@ -21,10 +21,14 @@ body {
   .navbar-container li {
     list-style: none;
   }
-  
+
   a {
     text-decoration: none;
     color: white;
+  }
+
+  .section1-details {
+    margin-top: -220px;
   }
 
   .section1-details > section {
@@ -40,7 +44,7 @@ body {
     font-weight: 700;
     font-size: 32px;
     line-height: 72px;
-    color: #7D73FC;
+    color: #7d73fc;
   }
 
   section > h3 {
@@ -57,7 +61,7 @@ body {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    color: #7D73FC;
+    color: #7d73fc;
     border-bottom: 1px solid #646369;
     padding-bottom: 5px;
   }
@@ -73,12 +77,11 @@ body {
     line-height: 55px;
     font-weight: 500;
     font-size: 18px;
-    color: #FFFFFF;
-}
+    color: #fff;
+  }
 
-svg {
+  svg {
     filter: blur(50px);
     background: white;
-}
-
+  }
 }
