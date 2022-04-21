@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+
 *, *:before, *:after{
   box-sizing: inherit;
 }
@@ -5,16 +7,12 @@
 body {
   background: #191765;
   margin: 0;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
 }
 
-/* .body-container {
-    position: relative;
-    width: 1440px;
-    height: 4651px;
-} */
-
 @media only screen and (max-width: 600px) {
-  .body-container {
+  .toolbar {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
@@ -28,4 +26,59 @@ body {
     text-decoration: none;
     color: white;
   }
+
+  .section1-details > section {
+    width: 327px;
+    text-align: center;
+    padding: 17px;
+    margin: 0 auto;
+  }
+
+  section > h2 {
+    letter-spacing: 0.37px;
+    height: 55px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 72px;
+    color: #7D73FC;
+  }
+
+  section > h3 {
+    color: white;
+    line-height: 15px;
+    font-weight: 500;
+    height: 43px;
+    top: 67px;
+    font-size: 29px;
+  }
+
+  section > p {
+    height: 170px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #7D73FC;
+    border-bottom: 1px solid #646369;
+    padding-bottom: 5px;
+  }
+
+  .hamburger {
+    position: absolute;
+    top: 14px;
+    font-size: 26px;
+  }
+
+  .logo {
+    letter-spacing: 0.48px;
+    line-height: 55px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+svg {
+    filter: blur(50px);
+    background: white;
+}
+
 }
