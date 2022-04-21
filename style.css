@@ -38,7 +38,7 @@ body {
     margin: 0 auto;
   }
 
-  section > h2 {
+  section > h1 {
     letter-spacing: 0.37px;
     height: 55px;
     font-weight: 700;
