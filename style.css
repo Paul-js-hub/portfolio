@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
+    margin-bottom: -53px;
   }
 
   .navbar-container li {
@@ -31,6 +32,10 @@ body {
     margin-top: -220px;
   }
 
+  .work-icon > h3 {
+    padding: 5px;
+  }
+
   .section1-details > section {
     width: 327px;
     text-align: center;
@@ -38,7 +43,7 @@ body {
     margin: 0 auto;
   }
 
-  section > h1 {
+  .section1-details > section > h1 {
     letter-spacing: 0.37px;
     height: 55px;
     font-weight: 700;
@@ -47,7 +52,7 @@ body {
     color: #7d73fc;
   }
 
-  section > h3 {
+  .section1-details > section > h3 {
     color: white;
     line-height: 15px;
     font-weight: 500;
@@ -56,14 +61,14 @@ body {
     font-size: 29px;
   }
 
-  section > p {
+  .section1-details > section > p {
     height: 170px;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     color: #7d73fc;
     border-bottom: 1px solid #646369;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
   }
 
   .hamburger {
@@ -83,5 +88,70 @@ body {
   svg {
     filter: blur(50px);
     background: white;
+  }
+
+  .inner-list-container > ul {
+    list-style: none;
+    margin-left: -40px;
+    color: #f5f5ff;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .section2-details > section > ul {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    width: 327px;
+    border-bottom: 1px solid #646369;
+  }
+
+  .section2-details > section > ul > li {
+    list-style: none;
+    color: #9490ff;
+    letter-spacing: 0.48px;
+    line-height: 16px;
+    font-size: 12px;
+  }
+
+  .section2-details {
+    margin-top: -50px;
+  }
+
+  .section3-details > section {
+    width: 327px;
+  }
+
+  .social-container {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 25px;
+    font-size: 24px;
+  }
+
+  .work-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #a2a3ae;
+    line-height: 32px;
+    font-weight: 500;
+    margin-bottom: -24px;
+  }
+
+  i.fa.fa-arrow-down {
+    padding: 5px;
+  }
+
+  .section3-details > section > h1 {
+    line-height: 52px;
+    font-size: 40px;
+    width: 327px;
+    color: #9490ff;
+    margin: 24px;
+    border-bottom: 1px solid #646369;
+    padding-bottom: 20px;
   }
 }
