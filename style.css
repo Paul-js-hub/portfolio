@@ -154,4 +154,26 @@ body {
     border-bottom: 1px solid #646369;
     padding-bottom: 20px;
   }
+
+  .section4-work-details > section {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    width: 327px;
+  }
+
+  .personal-projects{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .personal-projects > ul {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    list-style: none;
+  }
+
+  .personal-projects > ul > li {
+    border-right: 1px solid #555555;;
+  }
 }
