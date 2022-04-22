@@ -29,18 +29,16 @@ body {
     color: white;
   }
 
-  .section1-details {
-    margin-top: -220px;
-  }
-
   .work-icon > h3 {
     padding: 5px;
   }
 
-  .section1-details > section {
+  .section1-details {
     width: 327px;
-    text-align: center;
-    margin: 0 auto;
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .personal-projects > h1 {
@@ -48,30 +46,34 @@ body {
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
-    margin: 24px;
     color: #fff;
   }
 
-  .section1-details > section > h1 {
+  .section1-details > h1 {
     letter-spacing: 0.37px;
     height: 55px;
     font-weight: 700;
     font-size: 32px;
     line-height: 72px;
     color: #7d73fc;
+    width: 327px;
+    margin: 24px;
+    text-align: center;
   }
 
-  .section1-details > section > h3 {
+  .section1-details > h3 {
     color: white;
     line-height: 15px;
     font-weight: 500;
     height: 43px;
     top: 67px;
     font-size: 29px;
+    width: 327px;
+    margin: 24px;
+    text-align: center;
   }
 
   .personal-projects > p {
-    margin: 24px;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
@@ -79,15 +81,16 @@ body {
     height: 204px;
     font-family: Inter, sans-serif;
     font-style: normal;
-    width: 327px;
   }
 
-  .section1-details > section > p {
+  .section1-details > p {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     color: #7d73fc;
-    margin-bottom: 5px;
+    margin: 24px;
+    width: 327px;
+    text-align: center;
   }
 
   .hamburger {
@@ -121,14 +124,14 @@ body {
   .personal-projects > ul {
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 2px;
   }
 
-  .section2-details > section > ul {
+  .section2-details > ul {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    width: 327px;
   }
 
   .personal-projects > ul > li {
@@ -141,7 +144,7 @@ body {
     align-self: flex-end;
   }
 
-  .section2-details > section > ul > li {
+  .section2-details > ul > li {
     list-style: none;
     color: #9490ff;
     letter-spacing: 0.48px;
@@ -150,7 +153,7 @@ body {
   }
 
   .section2-details {
-    margin-top: -50px;
+    width: 327px;
   }
 
   .section3-details > section {
@@ -162,6 +165,8 @@ body {
     justify-content: center;
     letter-spacing: 25px;
     font-size: 24px;
+    width: 327px;
+    margin: 24px;
   }
 
   .work-icon {
@@ -172,38 +177,39 @@ body {
     color: #a2a3ae;
     line-height: 32px;
     font-weight: 500;
-    margin-bottom: -24px;
+    margin: 24px;
+    width: 327px;
   }
 
   i.fa.fa-arrow-down {
     padding: 5px;
   }
 
-  .section3-details > section > h1 {
+  .section3-details > h1 {
     line-height: 52px;
     font-size: 40px;
     width: 327px;
     color: #9490ff;
     margin: 24px;
-    padding-bottom: 20px;
   }
 
-  .section4-work-details > section {
+  .section4-work-details {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 25% 25% 25% 25%;
     width: 327px;
+    margin: 24px;
   }
 
   .personal-projects {
     display: flex;
     flex-direction: column;
+    height: 816px;
+    margin-bottom: -84px;
   }
 
   .personal-projects > img {
-    margin: 21px;
     height: 236px;
-    width: 327px;
     background: linear-gradient(0deg, #f9f9f9, #f9f9f9);
   }
 
@@ -219,10 +225,49 @@ body {
     line-height: 40px;
     background: #7d73fc;
     border-style: none;
-    margin: 24px;
     color: #edecff;
     letter-spacing: 0.48px;
+    padding: 6px;
   }
+
+  .personal-projects > a > button:hover {
+    background: #7d73fc;
+    color: #fff;
+    padding: 6px;
+    box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+  }
+
+  .personal-projects > a > button:active {
+    background: #5e42d7;
+    color: #eaeaf6;
+    padding: 6px;
+  }
+
+  .personal-projects > a > button:disabled {
+    background: #2a2b33;
+    color: #c8c8d4;
+    padding: 6px;
+  }
+  
+  .seeproject-btn:disabled {
+    width: 89px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 40px;
+    background: #2a2b33;;
+    border-style: none;
+    color:#c8c8d4;
+    letter-spacing: 0.48px;
+    padding: 6px;
+  }
+
+  /* .works button:hover {
+    color: #ff6b00;
+    background-color: #fff5e1;
+    border: 1px solid #ff6b00;
+    padding: 11px;
+  } */
 
   .personal-projects > ul > img {
     margin-left: 35px;
@@ -249,4 +294,9 @@ body {
   li > span {
     margin-left: 20px;
   }
+
+  img.ellipse-image-one {
+    margin-bottom: -237px;
+  }
+
 }
