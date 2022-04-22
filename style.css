@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap");
 
 * {
   box-sizing: inherit;
@@ -40,8 +40,16 @@ body {
   .section1-details > section {
     width: 327px;
     text-align: center;
-    padding: 17px;
     margin: 0 auto;
+  }
+
+  .personal-projects > h1 {
+    height: 29px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    margin: 24px;
+    color: #fff;
   }
 
   .section1-details > section > h1 {
@@ -62,13 +70,24 @@ body {
     font-size: 29px;
   }
 
+  .personal-projects > p {
+    margin: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #dcdce8;
+    height: 204px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    width: 327px;
+  }
+
   .section1-details > section > p {
-    height: 170px;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     color: #7d73fc;
-    padding-bottom: 20px;
+    margin-bottom: 5px;
   }
 
   .hamburger {
@@ -99,11 +118,27 @@ body {
     line-height: 24px;
   }
 
+  .personal-projects > ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+  }
+
   .section2-details > section > ul {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
     width: 327px;
+  }
+
+  .personal-projects > ul > li {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    width: 25px;
+    height: 20px;
+    align-self: flex-end;
   }
 
   .section2-details > section > ul > li {
@@ -169,17 +204,11 @@ body {
     margin: 21px;
     height: 236px;
     width: 327px;
-    background: linear-gradient(0deg, #F9F9F9, #F9F9F9);
-  }
-
-  .personal-projects > ul {
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
+    background: linear-gradient(0deg, #f9f9f9, #f9f9f9);
   }
 
   .list {
-    border-right: 1px solid #555555;;
+    border-right: 1px solid #555;
   }
 
   .seeproject-btn {
@@ -188,41 +217,11 @@ body {
     font-weight: 500;
     font-size: 12px;
     line-height: 40px;
-    background: #7D73FC;
+    background: #7d73fc;
     border-style: none;
     margin: 24px;
-    color: #EDECFF;
-    letter-spacing: 0.48px
-  }
-
-  .personal-projects > p {
-    margin: 24px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    color: #DCDCE8;
-    height: 204px;
-    font-family: Inter, sans-serif;
-    font-style: normal;
-    width: 327px;
-  }
-
-  .personal-projects > h1 {
-    height: 29px;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 44px;
-    margin: 24px;
-    color: #FFFFFF;
-  }
-
-  .personal-projects > ul > li {
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: #FFFFFF;
-    width: 25px;
-    height: 20px;
+    color: #edecff;
+    letter-spacing: 0.48px;
   }
 
   .personal-projects > ul > img {
@@ -231,5 +230,23 @@ body {
     height: 27px;
   }
 
-  img.image-border { margin: 24px; }
+  img.image-border {
+    margin: 24px;
+  }
+
+  .list-sumbua {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    width: 25px;
+    height: 20px;
+  }
+
+  li > span {
+    margin-left: 20px;
+  }
 }
