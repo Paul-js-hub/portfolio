@@ -229,6 +229,7 @@ body {
     color: #edecff;
     letter-spacing: 0.48px;
     padding: 6px;
+    margin-top: 4px;
   }
 
   .personal-projects > button:hover {
