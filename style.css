@@ -81,6 +81,7 @@ body {
     height: 204px;
     font-family: Inter, sans-serif;
     font-style: normal;
+    padding-top: 25px;
   }
 
   .section1-details > p {
@@ -230,44 +231,24 @@ body {
     padding: 6px;
   }
 
-  .personal-projects > a > button:hover {
+  .personal-projects > button:hover {
     background: #7d73fc;
     color: #fff;
     padding: 6px;
-    box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+    box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
   }
 
-  .personal-projects > a > button:active {
+  .personal-projects > button:active {
     background: #5e42d7;
     color: #eaeaf6;
     padding: 6px;
   }
 
-  .personal-projects > a > button:disabled {
+  .personal-projects > button:disabled {
     background: #2a2b33;
     color: #c8c8d4;
     padding: 6px;
   }
-  
-  .seeproject-btn:disabled {
-    width: 89px;
-    height: 48px;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 40px;
-    background: #2a2b33;;
-    border-style: none;
-    color:#c8c8d4;
-    letter-spacing: 0.48px;
-    padding: 6px;
-  }
-
-  /* .works button:hover {
-    color: #ff6b00;
-    background-color: #fff5e1;
-    border: 1px solid #ff6b00;
-    padding: 11px;
-  } */
 
   .personal-projects > ul > img {
     margin-left: 35px;
@@ -299,4 +280,40 @@ body {
     margin-bottom: -237px;
   }
 
+  .ellipse19 {
+    position: absolute;
+    margin-top: 87px;
+  }
+
+  .ellipse20 {
+    height: 250px;
+    position: absolute;
+    margin-top: 910px;
+    margin-left: 220px;
+    width: 155px;
+  }
+
+  .imageport {
+    margin-left: 289px;
+    position: absolute;
+    margin-top: -19px;
+  }
+
+  img.ellipse21 {
+    position: absolute;
+    margin-top: 1690px;
+    margin-left: -84px;
+    width: 308px;
+    height: 155px;
+    filter: blur(50px);
+    background: rgba(237, 236, 255, 0.3);
+  }
+
+  .ellipse22 {
+    position: absolute;
+    margin-top: 2431px;
+    width: 128.29px;
+    height: 217.04px;
+    margin-left: 247px;
+  }
 }
