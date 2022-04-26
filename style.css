@@ -13,9 +13,6 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .body-container {
-  }
-
   .toolbar {
     display: flex;
     justify-content: space-around;
@@ -30,6 +27,47 @@ body {
   a {
     text-decoration: none;
     color: white;
+  }
+
+  form > h1 {
+    width: 327px;
+    height: 35px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #9390ff;
+  }
+
+  form > p {
+    width: 327px;
+    height: 105px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #f5f5ff;
+  }
+
+  form > button:hover {
+    background: #7d73fc;
+    color: #fff;
+    padding: 6px;
+    box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+  }
+
+  form > button:active {
+    background: #5e42d7;
+    color: #eaeaf6;
+    padding: 6px;
+  }
+
+  footer > p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
   }
 
   .work-icon > h3 {
@@ -329,26 +367,6 @@ body {
     margin: 24px;
   }
 
-  form > h1 {
-    width: 327px;
-    height: 35px;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 44px;
-    text-align: center;
-    color: #9390ff;;
-  }
-
-  form > p {
-    width: 327px;
-    height: 105px;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 24px;
-    text-align: center;
-    color: #f5f5ff;
-  }
-
   .input-area {
     width: 327px;
     height: 48px;
@@ -367,36 +385,5 @@ body {
     margin: 24px;
     background: #fff;
     border: 1px solid #9490ff;
-  }
-
-  /* .submit {
-    width: 89px;
-    height: 48px;
-    background: #7d73fc;
-    letter-spacing: 0.48px;
-    font-weight: 500;
-    font-size: 12px;
-    color: #edecff;
-  } */
-
-  form > button:hover {
-    background: #7d73fc;
-    color: #fff;
-    padding: 6px;
-    box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
-  }
-  
-  form > button:active {
-    background: #5e42d7;
-    color: #eaeaf6;
-    padding: 6px;
-  }
-
-  footer > p {
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    color: #ebebff;
   }
 }
