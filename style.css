@@ -343,7 +343,7 @@ body {
     width: 327px;
     height: 105px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 24px;
     text-align: center;
     color: #f5f5ff;
@@ -355,6 +355,10 @@ body {
     margin: 24px;
     background: #fff;
     border: 1px solid #9490ff;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #81818c;
   }
 
   .text-area {
@@ -365,7 +369,7 @@ body {
     border: 1px solid #9490ff;
   }
 
-  .submit {
+  /* .submit {
     width: 89px;
     height: 48px;
     background: #7d73fc;
@@ -373,14 +377,26 @@ body {
     font-weight: 500;
     font-size: 12px;
     color: #edecff;
-  }
-  .submit:hover {
+  } */
+
+  form > button:hover {
+    background: #7d73fc;
     color: #fff;
-    background-color: #7d73fc;
+    padding: 6px;
+    box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
   }
   
-  .submit:active {
-    color: #fff;
-    background-color: #5e42d7;
+  form > button:active {
+    background: #5e42d7;
+    color: #eaeaf6;
+    padding: 6px;
+  }
+
+  footer > p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
   }
 }
