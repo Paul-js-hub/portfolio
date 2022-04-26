@@ -13,6 +13,9 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  .body-container {
+  }
+
   .toolbar {
     display: flex;
     justify-content: space-around;
@@ -316,5 +319,55 @@ body {
     width: 128.29px;
     height: 217.04px;
     margin-left: 247px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  form > h1 {
+    width: 327px;
+    height: 35px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #9390ff;;
+  }
+
+  form > p {
+    width: 327px;
+    height: 105px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #f5f5ff;
+  }
+
+  .input-area {
+    width: 327px;
+    height: 48px;
+    background: #fff;
+    border: 1px solid #9490ff;
+  }
+
+  .text-area {
+    width: 327px;
+    height: 148px;
+    background: #fff;
+    border: 1px solid #9490ff;
+  }
+
+  .submit {
+    width: 89px;
+    height: 48px;
+    background: #7d73fc;
+    letter-spacing: 0.48px;
+    font-weight: 500;
+    font-size: 12px;
+    color: #edecff;
   }
 }
