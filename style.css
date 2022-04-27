@@ -29,6 +29,45 @@ body {
     color: white;
   }
 
+  section > h2 {
+    height: 35px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #9390ff;
+  }
+
+  section > p {
+    height: 105px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #f5f5ff;
+  }
+
+  form > button:hover {
+    background: #7d73fc;
+    color: #fff;
+    padding: 6px;
+    box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+  }
+
+  form > button:active {
+    background: #5e42d7;
+    color: #eaeaf6;
+    padding: 6px;
+  }
+
+  footer > p {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #ebebff;
+    height: 100px;
+  }
+
   .work-icon > h3 {
     padding: 5px;
   }
@@ -41,7 +80,7 @@ body {
     align-items: center;
   }
 
-  .personal-projects > h1 {
+  .personal-projects > h2 {
     height: 29px;
     font-weight: 500;
     font-size: 32px;
@@ -89,9 +128,8 @@ body {
     font-size: 20px;
     line-height: 28px;
     color: #7d73fc;
-    margin: 24px;
-    width: 327px;
     text-align: center;
+    margin-bottom: 65px;
   }
 
   .hamburger {
@@ -155,10 +193,12 @@ body {
 
   .section2-details {
     width: 327px;
+    margin: 24px;
   }
 
-  .section3-details > section {
+  .section3-details {
     width: 327px;
+    margin: 24px;
   }
 
   .social-container {
@@ -166,8 +206,6 @@ body {
     justify-content: center;
     letter-spacing: 25px;
     font-size: 24px;
-    width: 327px;
-    margin: 24px;
   }
 
   .work-icon {
@@ -178,20 +216,17 @@ body {
     color: #a2a3ae;
     line-height: 32px;
     font-weight: 500;
-    margin: 24px;
-    width: 327px;
   }
 
   i.fa.fa-arrow-down {
     padding: 5px;
   }
 
-  .section3-details > h1 {
-    line-height: 52px;
-    font-size: 40px;
-    width: 327px;
+  .section3-details > h2 {
+    line-height: 40px;
+    font-size: 39px;
     color: #9490ff;
-    margin: 24px;
+    text-align: left;
   }
 
   .section4-work-details {
@@ -232,6 +267,20 @@ body {
     margin-top: 4px;
   }
 
+  .submit-btn {
+    width: 89px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 40px;
+    background: #7d73fc;
+    border-style: none;
+    color: #edecff;
+    letter-spacing: 0.48px;
+    padding: 6px;
+    margin-top: 24px;
+  }
+
   .personal-projects > button:hover {
     background: #7d73fc;
     color: #fff;
@@ -257,8 +306,8 @@ body {
     height: 27px;
   }
 
-  img.image-border {
-    margin: 24px;
+  .image-border {
+    margin-top: 35px;
   }
 
   .list-sumbua {
@@ -316,5 +365,40 @@ body {
     width: 128.29px;
     height: 217.04px;
     margin-left: 247px;
+  }
+
+  section > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input-area {
+    width: 90%;
+    margin: 12px;
+    background: #fff;
+    border: 1px solid #9490ff;
+    font-weight: 400;
+    font-size: 15px;
+    color: #81818c;
+    padding: 16px;
+  }
+
+  .text-area {
+    height: 100px;
+    margin: 12px;
+    background: #fff;
+    border: 1px solid #9490ff;
+    padding: 16px;
+    width: 90%;
+  }
+
+  .contact-us {
+    width: 327px;
+    margin: 24px;
+  }
+
+  .rectangle {
+    margin-bottom: 16px;
   }
 }
