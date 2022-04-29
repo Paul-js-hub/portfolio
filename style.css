@@ -463,8 +463,17 @@ section > form {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    padding: 5px;
     color: #fff;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+    border: 1px solid gold;
+    padding: 8px;
+    margin: 8px;
+  }
+
+  .navbar-container li:hover {
+    background-color: #9390ff;
+    color: wheat;
   }
 
   .ellipse-image-one {
