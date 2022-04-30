@@ -187,6 +187,20 @@ form > button:active {
   line-height: 72px;
   color: #7d73fc;
   text-align: center;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .header3 {
@@ -463,8 +477,17 @@ section > form {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    padding: 5px;
     color: #fff;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+    border: 1px solid gold;
+    padding: 8px;
+    margin: 8px;
+  }
+
+  .navbar-container li:hover {
+    background-color: #9390ff;
+    color: wheat;
   }
 
   .ellipse-image-one {
