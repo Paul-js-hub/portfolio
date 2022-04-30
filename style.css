@@ -187,8 +187,6 @@ form > button:active {
   line-height: 72px;
   color: #7d73fc;
   text-align: center;
-}
-.header1 {
   animation-duration: 3s;
   animation-name: slidein;
 }
