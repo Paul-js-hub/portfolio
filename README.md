@@ -34,6 +34,9 @@ Go to the root folder and run the following:
 
    $ Open the index.html in your browser
 
+## Live link
+[Live Demo Link](https://paul-js-hub.github.io/portfolio/)
+
 ## Author
 
 - GitHub: [@githubhandle](https://github.com/Paul-js-hub/)
