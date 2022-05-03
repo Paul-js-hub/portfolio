@@ -13,10 +13,65 @@ body {
   overflow-x: hidden;
 }
 
+main#class {
+  margin: 0 24px;
+  width: 87.2%;
+}
+
+hr.hr-last.hr-second-last {
+  margin: 24px 0;
+}
+
+img.section4-image {
+  margin: 24px 0;
+  width: 100%;
+}
+
+img.ellipse19 {
+  margin-top: 256px;
+  margin-left: -24px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0;
+  grid-area: text;
+}
+
+.contact-us {
+  margin: 24px 0;
+}
+
+.input-area {
+  width: 90%;
+  margin: 24px 0;
+  background: #fff;
+  border: 1px solid #9490ff;
+  font-weight: 400;
+  font-size: 15px;
+  color: #81818c;
+  padding: 16px;
+}
+
+.text-area {
+  height: 100px;
+  margin: 24px auto;
+  background: #fff;
+  border: 1px solid #9490ff;
+  padding: 16px;
+  width: 90%;
+}
+
+.footer {
+  margin-top: 24px;
+}
+
 .toolbar {
   display: flex;
   justify-content: space-around;
   margin: 0 24px;
+  width: 87.2%;
 }
 
 .grid {
@@ -50,11 +105,13 @@ a {
   justify-content: center;
 }
 
-.flex-column {
-  display: flex;
-  flex-direction: column;
-  margin: 24px;
-  grid-area: text;
+.mobile-h1 {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 52px;
+  text-align: left;
+  color: #9490ff;
+  text-transform: uppercase;
 }
 
 .flex {
@@ -255,13 +312,7 @@ svg {
   font-size: 12px;
 }
 
-.section2-details {
-  width: 100%;
-  margin: 24px;
-}
-
 .section3-details {
-  width: 100%;
   margin: 24px;
 }
 
@@ -292,7 +343,7 @@ i.fa.fa-arrow-down {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 24px;
+  margin: 24px 0;
 }
 
 .list {
@@ -345,12 +396,11 @@ li > span {
 
 img.ellipse-image-one {
   margin-bottom: -237px;
-  margin-left: -271px;
+  margin-left: -291px;
 }
 
 .image-border {
   margin: 24px 0;
-  width: 448px;
 }
 
 .no-img {
@@ -403,31 +453,6 @@ section > form {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.input-area {
-  width: 90%;
-  margin: 12px;
-  background: #fff;
-  border: 1px solid #9490ff;
-  font-weight: 400;
-  font-size: 15px;
-  color: #81818c;
-  padding: 16px;
-}
-
-.text-area {
-  height: 100px;
-  margin: 12px;
-  background: #fff;
-  border: 1px solid #9490ff;
-  padding: 16px;
-  width: 90%;
-}
-
-.contact-us {
-  width: 100%;
-  margin: 24px;
 }
 
 .rectangle {
