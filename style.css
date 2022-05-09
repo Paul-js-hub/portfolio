@@ -271,9 +271,18 @@ form > button:active {
 }
 
 .hamburger {
-  position: absolute;
-  top: 14px;
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  padding: 4px;
+  border: black solid 1px;
+  cursor: pointer;
   font-size: 26px;
+}
+
+.fa-times {
+  display: none;
 }
 
 .logo {
@@ -460,8 +469,27 @@ section > form {
 }
 
 .nav-links {
-  display: none;
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: black;
+  color: white;
+  list-style: none;
+  padding-top: 4rem;
+  margin-top: 2;
 }
+
+.showMenu {
+  transform: translateY(0);
+}
+
+/* .fa-envelope-o {
+  display: none !important;
+} */
 
 .circle1 {
   display: none;
@@ -584,8 +612,7 @@ section > form {
   .image-container {
     grid-area: image;
     height: 419px;
-    background:
-      linear-gradient(0deg, #fff, #fff),
+    background: linear-gradient(0deg, #fff, #fff),
       url(image_processing20200716-21735-f07s4k.png);
   }
 
