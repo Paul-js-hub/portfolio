@@ -489,7 +489,7 @@ section > form {
   width: 100%;
 }
 
-.showMenu {
+.show-menu {
   transform: translateY(0);
     width: 100%;
     background-image: url("images/shape-mobile-menu-2.png"), url("images/shape-mobile-menu-1.png");
