@@ -84,6 +84,12 @@ img.ellipse19 {
   grid-gap: 30px 0;
 }
 
+
+
+.navbar-container {
+  display: none;
+}
+
 .navbar-container li {
   list-style: none;
   font-style: normal;
@@ -540,13 +546,14 @@ i.fa.fa-envelope-o.envelope {
   .toolbar {
     display: flex;
     justify-content: space-around;
+    align-items: center;
   }
 
   .hamburger {
     display: none;
   }
 
-  .nav-links {
+  .navbar-container, .menu {
     display: flex;
   }
 
@@ -558,14 +565,26 @@ i.fa.fa-envelope-o.envelope {
     color: #fff;
     transition: all 0.5s ease-out;
     cursor: pointer;
-    border: 1px solid gold;
     padding: 8px;
     margin: 8px;
+  }
+
+  main#class {
+    margin: 0 auto;
+    width: 87.2%;
   }
 
   .navbar-container li:hover {
     background-color: #9390ff;
     color: wheat;
+  }
+
+  i.fa.fa-envelope-o.envelope {
+    display: flex;
+  }
+
+  i.fa.fa-angle-right {
+    display: none;
   }
 
   .ellipse-image-one {
