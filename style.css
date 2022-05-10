@@ -69,7 +69,7 @@ img.ellipse19 {
 
 .toolbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 0 24px;
   width: 87.2%;
 }
@@ -235,6 +235,7 @@ form > button:active {
   flex-direction: column;
   align-items: center;
   margin: 24px 0;
+  /* background-image: url("images/ellipse18.png"); */
 }
 
 .header1 {
@@ -271,18 +272,22 @@ form > button:active {
 }
 
 .hamburger {
-  position: fixed;
+  position: relative;
   z-index: 100;
   top: 1rem;
   right: 1rem;
   padding: 4px;
-  border: black solid 1px;
   cursor: pointer;
   font-size: 26px;
 }
 
-.fa-times {
+i.fa.fa-times.close-icon {
   display: none;
+  position: fixed;
+}
+
+i.fa.fa-bars {
+  position: fixed;
 }
 
 .logo {
@@ -476,20 +481,33 @@ section > form {
   right: 0;
   bottom: 0;
   z-index: 99;
-  background: black;
+  background: #191765;
   color: white;
   list-style: none;
   padding-top: 4rem;
-  margin-top: 2;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .showMenu {
   transform: translateY(0);
+    width: 100%;
+    background-image: url("images/shape-mobile-menu-2.png"), url("images/shape-mobile-menu-1.png");
+    background-size: 226px 427px, 200px 244px;
+    background-repeat: no-repeat;
+    background-position: left, right bottom;
+ }
+
+ i.fa.fa-envelope-o.envelope {
+  display: none;
 }
 
-/* .fa-envelope-o {
-  display: none !important;
-} */
+ .list-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 24px;
+  padding: 21px;
+}
 
 .circle1 {
   display: none;
