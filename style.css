@@ -235,6 +235,7 @@ form > button:active {
   flex-direction: column;
   align-items: center;
   margin: 24px 0;
+
   /* background-image: url("images/ellipse18.png"); */
 }
 
@@ -491,18 +492,20 @@ section > form {
 
 .show-menu {
   transform: translateY(0);
-    width: 100%;
-    background-image: url("images/shape-mobile-menu-2.png"), url("images/shape-mobile-menu-1.png");
-    background-size: 226px 427px, 200px 244px;
-    background-repeat: no-repeat;
-    background-position: left, right bottom;
- }
+  width: 100%;
+  background-image:
+    url("images/shape-mobile-menu-2.png"),
+    url("images/shape-mobile-menu-1.png");
+  background-size: 226px 427px, 200px 244px;
+  background-repeat: no-repeat;
+  background-position: left, right bottom;
+}
 
- i.fa.fa-envelope-o.envelope {
+i.fa.fa-envelope-o.envelope {
   display: none;
 }
 
- .list-item {
+.list-item {
   display: flex;
   justify-content: space-between;
   margin: 0 24px;
@@ -630,7 +633,8 @@ section > form {
   .image-container {
     grid-area: image;
     height: 419px;
-    background: linear-gradient(0deg, #fff, #fff),
+    background:
+      linear-gradient(0deg, #fff, #fff),
       url(image_processing20200716-21735-f07s4k.png);
   }
 
