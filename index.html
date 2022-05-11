@@ -158,135 +158,28 @@
         <h2 class="recent-span mobile-h1 works-title">My Recent Work</h2>
         <hr class="hr-last hr-second-last" />
         <!-- <hr class="hr-last recent hr-second-last"> -->
-        <div class="container-grid">
-          <div class="test block1">
-            <div class="image-container">
-              <img
-                src="images/image2.png"
-                alt="project-image"
-                class="section4-image"
-              />
-            </div>
-            <div class="flex-column">
-              <h2>Multi-Post Stories</h2>
-              <p>
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a
-                standard dummy text.
-              </p>
-              <ul class="flex">
-                <li class="list-sumbua">
-                  CSS <span> <img src="images/image3.png" alt="css" /></span>
-                </li>
-                <li class="list-sumbua">
-                  Html <span> <img src="images/image3.png" alt="html" /></span>
-                </li>
-                <li class="list-sumbua">
-                  Bootstrap
-                  <span> <img src="images/image3.png" alt="bootstrap" /></span>
-                </li>
-                <li class="no-img">Ruby</li>
-              </ul>
-              <button class="seeproject-btn" type="button">See Project</button>
-            </div>
+        <div class="popup-overlay"></div>
+        <div id="demo1" class="popup">
+          <div class="header-pop">
+            <h3>Multi-Posts Strories</h3>
+            <p class="close-btn" id="modal-close">&times;</p>
           </div>
-          <div class="test block2">
-            <div class="image-container">
-              <img
-                src="images/image2.png"
-                alt="project-image"
-                class="section4-image"
-              />
+          <div class="popup-body">
+            <div class="img-popup-div">
+              <img src="images/portfolio-popup.png" alt="" class="img-popup">
             </div>
-            <div class="flex-column">
-              <h2>Multi-Post Stories</h2>
-              <p>
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a
-                standard dummy text.
-              </p>
-              <ul class="flex">
-                <li class="list-sumbua">
-                  CSS <span> <img src="images/image3.png" alt="css" /></span>
-                </li>
-                <li class="list-sumbua">
-                  Html <span> <img src="images/image3.png" alt="html" /></span>
-                </li>
-                <li class="list-sumbua">
-                  Bootstrap
-                  <span> <img src="images/image3.png" alt="bootstrap" /></span>
-                </li>
-                <li class="no-img">Ruby</li>
-              </ul>
-              <button class="seeproject-btn" type="button">See Project</button>
+            <div class="descrption-div">
+              <p class="descrpt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a standard dummy text.Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             </div>
+            <div class="buttons">
+              <a class="seeproject-btn" href="https://paul-js-hub.github.io/portfolio/">See Live <span><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+              </span></a>
+               <a class="seeproject-btn" href="https://github.com/Paul-js-hub/portfolio">See Github <span><i class="fa fa-github" aria-hidden="true"></i>
+               </span></a>
+             </div>
           </div>
-          <div class="test block3">
-            <div class="image-container">
-              <img
-                src="images/image2.png"
-                alt="project-image"
-                class="section4-image"
-              />
-            </div>
-            <div class="flex-column">
-              <h2>Multi-Post Stories</h2>
-              <p>
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a
-                standard dummy text.
-              </p>
-              <ul class="flex">
-                <li class="list-sumbua">
-                  CSS <span> <img src="images/image3.png" alt="css" /></span>
-                </li>
-                <li class="list-sumbua">
-                  Html <span> <img src="images/image3.png" alt="html" /></span>
-                </li>
-                <li class="list-sumbua">
-                  Bootstrap
-                  <span> <img src="images/image3.png" alt="bootstrap" /></span>
-                </li>
-                <li class="no-img">Ruby</li>
-              </ul>
-              <button class="seeproject-btn" type="button">See Project</button>
-            </div>
-          </div>
-          <div class="test block4">
-            <div class="image-container">
-              <img
-                src="images/image2.png"
-                alt="project-image"
-                class="section4-image"
-              />
-            </div>
-            <div class="flex-column">
-              <h2>Multi-Post Stories</h2>
-              <p>
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a
-                standard dummy text.
-              </p>
-              <ul class="flex">
-                <li class="list-sumbua">
-                  CSS <span> <img src="images/image3.png" alt="css" /></span>
-                </li>
-                <li class="list-sumbua">
-                  Html <span> <img src="images/image3.png" alt="html" /></span>
-                </li>
-                <li class="list-sumbua">
-                  Bootstrap
-                  <span> <img src="images/image3.png" alt="bootstrap" /></span>
-                </li>
-                <li class="no-img">Ruby</li>
-              </ul>
-              <button class="seeproject-btn" type="button">See Project</button>
-            </div>
-          </div>
+        </div>
+        <div id="demo" class="container-grid">
         </div>
       </section>
       <section class="contact-us chat-grid" id="contact">
@@ -345,7 +238,6 @@
       </div>
       <p>oncherahesbom@gmail.com</p>
     </footer>
-
     <script src="index.js"></script>
   </body>
 </html>

@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Multi-Post Stories",
+    "description": "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text",
+    "image": "images/images.png",
+    "technologies": ["HTML", "CSS", "Bootstrap", "Ruby"],
+    "liveLink": "https://paul-js-hub.github.io/portfolio/",
+    "github": "https://github.com/Paul-js-hub/portfolio"
+  },
+  {
+    "name": "Multi-Post Stories",
+    "description": "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text",
+    "image": "images/images.png",
+    "technologies": ["HTML", "CSS", "Bootstrap", "Ruby"],
+    "liveLink": "https://paul-js-hub.github.io/portfolio/",
+    "github": "https://github.com/Paul-js-hub/portfolio"
+  },
+  {
+    "name": "Multi-Post",
+    "description": "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text",
+    "image": "images/images.png",
+    "technologies": ["HTML", "CSS", "Bootstrap", "Ruby"],
+    "liveLink": "https://paul-js-hub.github.io/portfolio/",
+    "github": "https://github.com/Paul-js-hub/portfolio"
+  },
+  {
+    "name": "Multi-Post Stories",
+    "description": "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text",
+    "image": "images/images.png",
+    "technologies": ["HTML", "CSS", "Bootstrap", "Ruby"],
+    "liveLink": "https://paul-js-hub.github.io/portfolio/",
+    "github": "https://github.com/Paul-js-hub/portfolio"
+  }
+]
