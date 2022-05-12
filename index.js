@@ -109,25 +109,25 @@ closeButton.addEventListener('click', () => {
   overlay.style.display = 'none';
 });
 
-//form validation
-let form = document.querySelector('#form');
-let email = document.querySelector('#email');
+// form validation
+const form = document.querySelector('#form');
+const email = document.querySelector('#email');
 const err = document.querySelector('#err');
 err.style.color = 'red';
 
-function checkIfValidEmail(input){
-  if(input === input.toLowerCase()){
+function checkIfValidEmail(input) {
+  if (input === input.toLowerCase()) {
     return true;
   }
-  return false
+  return false;
 }
 
-let errorDisplay = (e) =>{
-  if(!checkIfValidEmail(email.value)){
+const errorDisplay = (e) => {
+  if (!checkIfValidEmail(email.value)) {
     e.preventDefault();
-    err.textContent = "The email is NOT valid. All letters should be lowercase"
-    email.value = ""
+    err.textContent = 'The email is NOT valid. All letters should be lowercase';
+    email.value = '';
   }
-}
+};
 
-form.addEventListener('click', errorDisplay)
+form.addEventListener('click', errorDisplay);
