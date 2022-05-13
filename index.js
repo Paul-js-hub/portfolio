@@ -131,3 +131,22 @@ const errorDisplay = (e) => {
 };
 
 form.addEventListener('click', errorDisplay);
+
+// local storage
+const state = {
+  name: '',
+  email: '',
+  textArea: '',
+};
+
+form.addEventListener('change', () => {
+  state.name = document.querySelector('#name').value;
+  state.email = document.querySelector('#email').value;
+  state.textArea = document.querySelector('#textarea').value;
+  localStorage.setItem('data', JSON.stringify(state));
+});
+
+const dataObject = JSON.parse(localStorage.getItem('data'));
+document.querySelector('#name').value = dataObject.name;
+document.querySelector('#email').value = dataObject.email;
+document.querySelector('#textarea').value = dataObject.textArea;
