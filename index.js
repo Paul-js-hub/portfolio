@@ -140,10 +140,13 @@ let state = {
 }
 
 form.addEventListener('change', (e)=>{
-  console.log(e)
   state.name = document.querySelector('#name').value;
+  state.email = document.querySelector('#email').value;
+  state.textArea = document.querySelector('#textArea').value;
   localStorage.setItem('data', JSON.stringify(state));
 });
 
 const dataObject = JSON.parse(localStorage.getItem('data'));
 document.querySelector('#name').value = dataObject.name;
+document.querySelector('#email').value = dataObject.email;
+document.querySelector('#textArea').value = dataObject.textArea;
