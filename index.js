@@ -132,14 +132,14 @@ const errorDisplay = (e) => {
 
 form.addEventListener('click', errorDisplay);
 
-//local storage
-let state = {
-  name:'',
-  email:'',
-  textArea:''
-}
+// local storage
+const state = {
+  name: '',
+  email: '',
+  textArea: '',
+};
 
-form.addEventListener('change', ()=>{
+form.addEventListener('change', () => {
   state.name = document.querySelector('#name').value;
   state.email = document.querySelector('#email').value;
   state.textArea = document.querySelector('#textarea').value;
