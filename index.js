@@ -139,14 +139,14 @@ let state = {
   textArea:''
 }
 
-form.addEventListener('change', (e)=>{
+form.addEventListener('change', ()=>{
   state.name = document.querySelector('#name').value;
   state.email = document.querySelector('#email').value;
-  state.textArea = document.querySelector('#textArea').value;
+  state.textArea = document.querySelector('#textarea').value;
   localStorage.setItem('data', JSON.stringify(state));
 });
 
 const dataObject = JSON.parse(localStorage.getItem('data'));
 document.querySelector('#name').value = dataObject.name;
 document.querySelector('#email').value = dataObject.email;
-document.querySelector('#textArea').value = dataObject.textArea;
+document.querySelector('#textarea').value = dataObject.textArea;
